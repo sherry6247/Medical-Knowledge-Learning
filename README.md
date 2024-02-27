@@ -6,7 +6,7 @@
 ## Paper list
 * **[2024 Information Fusion]** [EHR-KnowGen: Knowledge-enhanced multimodal learning for disease diagnosis generation](https://www.sciencedirect.com/science/article/pii/S1566253523003858)|Knowledge(y HCUP-CSS codes)+ labtest + Clincial events + Note | **([code](https://github.com/Healthcare-Data-Mining-Laboratory/EHR-KnowGen?utm_source=catalyzex.com))**
 * **[2024 The journal of supercompution]** [MIFNet: multimodal interactive fusion network for medication recommendation](https://link.springer.com/content/pdf/10.1007/s11227-024-05908-1.pdf) | clinical code + note(pretrained word2Vec) |
-* **[2024 ICLR]** [BioBridge: Bridging Biomedical Foundation Models via Knowledge Graphs](https://arxiv.org/pdf/2310.03320.pdf) **([code](https://github.com/RyanWangZf/BioBridge))**
+* **[2024 ICLR]** [BioBridge: Bridging Biomedical Foundation Models      via Knowledge Graphs](https://arxiv.org/pdf/2310.03320.pdf) **([code](https://github.com/RyanWangZf/BioBridge))**
 * **[2023 ICML]** [Improving Medical Predictions by Irregular Multimodal Electronic Health Records Modeling](https://proceedings.mlr.press/v202/zhang23v.html) | Clinical code + Note | **([code](https://github.com/XZhang97666/MultimodalMIMIC))**
 * **[2023 Nature Biotechnology]** [Discovery of drug–omics associations in type 2 diabetes with generative deep-learning models](https://www.nature.com/articles/s41587-022-01520-x#data-availability) **([code](https://github.com/RasmussenLab/MOVE))**
 * **[2023 AAAI]** [Context-Aware Safe Medication Recommendations with Molecular Graph and DDI Graph Embedding](https://ojs.aaai.org/index.php/AAAI/article/view/25861) **([code](https://github.com/bit1029public/Carmen))**
@@ -21,6 +21,7 @@
 * **[2021 AAAI]** [Parameter-Efficient Fine-Tuning with Layer Pruning on Free-Text Sequence-to-Sequence Modeling](https://ojs.aaai.org/index.php/AAAI/article/view/17260) 
 * **2021 BIBM**[MAIN: Multimodal attention-based fusion networks for diagnosis prediction](https://ieeexplore.ieee.org/abstract/document/9669634/) | clinical code + Note(Word2Vec+TextCNN) |
 * **[2021 EMNLP]** [How to leverage the multimodal EHR data for better medical prediction?](https://aclanthology.org/2021.emnlp-main.329/) | clinical time-series + Time-invariant+ Note| **([code](https://github.com/emnlp-mimic/mimic?utm_source=catalyzex.com))**
+* **2019 IJCAI** [MNN: Multimodal Attentional Neural Networks for Diagnosis Prediction](https://www.ijcai.org/Proceedings/2019/0823.pdf) | clinical code + note |
   
 
 ## Dataset
