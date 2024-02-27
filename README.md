@@ -45,4 +45,10 @@
   patient| Mutations| CNA | RAN-seq|
   |-|-|-|-|
   |1144| 1144 |1144|0|
-* 
+* **[MIMIC-III](https://physionet.org/content/mimiciii/1.4/)**
+* **[MIMIC-III multitask benchmark](https://github.com/YerevaNN/mimic3-benchmarks/tree/master)**
+  * [in-hospital-mortality](https://github.com/YerevaNN/mimic3-benchmarks/blob/master/mimic3benchmark/scripts/create_in_hospital_mortality.py)
+  * [decompensation](https://github.com/YerevaNN/mimic3-benchmarks/blob/master/mimic3benchmark/scripts/create_decompensation.py)
+  * [length-of-stay](https://github.com/YerevaNN/mimic3-benchmarks/blob/master/mimic3benchmark/scripts/create_length_of_stay.py)
+  * [phenotyping](https://github.com/YerevaNN/mimic3-benchmarks/blob/master/mimic3benchmark/scripts/create_phenotyping.py)
+  * [multitask](https://github.com/YerevaNN/mimic3-benchmarks/blob/master/mimic3benchmark/scripts/create_multitask.py)
