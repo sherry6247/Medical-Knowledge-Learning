@@ -4,9 +4,12 @@
   - [Dataset](#dataset)
 
 ## Paper list
+* **[2024 Science report]** MultiP [Construction and optimization of multi‑platform precision pathways for precision medicine](https://www.nature.com/articles/s41598-024-54517-8.pdf) | clinical+imaging + genetics + omics | **([code](https://github.com/SydneyBioX/MultiP))**
+*  **[2024 Computers in Biology and Medicome]** [Multi-modal learning for inpatient length of stay prediction](https://www.sciencedirect.com/science/article/pii/S0010482524002051)
+* **[2024 Computers in Biology and Medicine]**  AFF_fusion [Fusion of electronic health records and radiographic images for a multimodal deep learning prediction model of atypical femur fractures](https://www.sciencedirect.com/science/article/pii/S0010482523011691) | clinical + radiogrphs | **（[code](https://github.com/wanderine/AFF_fusion)）**
 * **[2024 Information Fusion]** [EHR-KnowGen: Knowledge-enhanced multimodal learning for disease diagnosis generation](https://www.sciencedirect.com/science/article/pii/S1566253523003858)|Knowledge(y HCUP-CSS codes)+ labtest + Clincial events + Note | **([code](https://github.com/Healthcare-Data-Mining-Laboratory/EHR-KnowGen?utm_source=catalyzex.com))**
 * **[2024 The journal of supercompution]** [MIFNet: multimodal interactive fusion network for medication recommendation](https://link.springer.com/content/pdf/10.1007/s11227-024-05908-1.pdf) | clinical code + note(pretrained word2Vec) |
-* **[2024 ICLR]** [BioBridge: Bridging Biomedical Foundation Models      via Knowledge Graphs](https://arxiv.org/pdf/2310.03320.pdf) **([code](https://github.com/RyanWangZf/BioBridge))**
+* **[2024 ICLR]** [BioBridge: Bridging Biomedical Foundation Models via Knowledge Graphs](https://arxiv.org/pdf/2310.03320.pdf) **([code](https://github.com/RyanWangZf/BioBridge))**
 * **[2023 ICML]** [Improving Medical Predictions by Irregular Multimodal Electronic Health Records Modeling](https://proceedings.mlr.press/v202/zhang23v.html) | Clinical code + Note | **([code](https://github.com/XZhang97666/MultimodalMIMIC))**
 * **[2023 Nature Biotechnology]** [Discovery of drug–omics associations in type 2 diabetes with generative deep-learning models](https://www.nature.com/articles/s41587-022-01520-x#data-availability) **([code](https://github.com/RasmussenLab/MOVE))**
 * **[2023 AAAI]** [Context-Aware Safe Medication Recommendations with Molecular Graph and DDI Graph Embedding](https://ojs.aaai.org/index.php/AAAI/article/view/25861) **([code](https://github.com/bit1029public/Carmen))**
@@ -16,6 +19,7 @@
 * **[2023 EMNLP]** [MolCA: Molecular Graph-Language Modeling with Cross-Modal Projector and Uni-Modal Adapter](https://aclanthology.org/2023.emnlp-main.966v2.pdf) **([code](https://github.com/acharkq/MolCA))**
 *  **[2023 KDD]** [Warpformer: A Multi-scale Modeling Approach for Irregular Clinical Time Series](https://arxiv.org/abs/2306.09368) | PhysioNet, Human activatity, MIMIC-III | **([code](https://github.com/imJiawen/Warpformer))**
 *  **[2023 AMIA]** [Towards Interpretable Multimodal Predictive Models for Early Mortality Prediction of Hemorrhagic Stroke Patients](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10283097/)| temporal+aggrate data|
+*  **[2022 Npj]** [Integrated multimodal artificial intelligence framework for healthcare applications](https://www.nature.com/articles/s41746-022-00689-4#Tab1) | **clinical + note + image** | **([code](https://github.com/lrsoenksen/HAIM))**
 *  **[2022 AMIA]** [A Multimodal Transformer: Fusing Clinical Notes with Structured EHR Data for Interpretable In-Hospital Mortality Prediction](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10148371/) |clinical code + Note| **([code](https://github.com/weimin17/Multimodal_Transformer))**
 *  **[2022 BIBM]** [UniMed: Multimodal Multitask Learning for Medical Predictions](https://ieeexplore.ieee.org/abstract/document/9995044/) | clinical+Note|
 * **[2021 AAAI]** [Parameter-Efficient Fine-Tuning with Layer Pruning on Free-Text Sequence-to-Sequence Modeling](https://ojs.aaai.org/index.php/AAAI/article/view/17260) 
@@ -52,3 +56,20 @@
   * [length-of-stay](https://github.com/YerevaNN/mimic3-benchmarks/blob/master/mimic3benchmark/scripts/create_length_of_stay.py)
   * [phenotyping](https://github.com/YerevaNN/mimic3-benchmarks/blob/master/mimic3benchmark/scripts/create_phenotyping.py)
   * [multitask](https://github.com/YerevaNN/mimic3-benchmarks/blob/master/mimic3benchmark/scripts/create_multitask.py)
+* **[MIMIC-IV dataset](https://physionet.org/content/mimiciv/2.2/)**
+  * hosp,icu,ed,cxr
+  
+* **[Holistic AI in Medicine Multimodal Dataset (HAIM-MIMIC-MM)](https://www.nature.com/articles/s41746-022-00689-4#Tab1)**
+
+  
+  **| 34,537 samples | 7,279 hospitalization | 6,485 patients|**
+
+  |  4 modalities (tabular, time-series, text, images)| 11 unique data sources | 12 predicitve tasks|s
+
+
+  * MIMIC-IV 
+    * Tabular data + Time Series + Natural Language + Medical Images
+    * Task:
+      * Chest pathology diagnosis prediction
+      * Length-of-Stay prediction
+      * 48 h mortality prediction
