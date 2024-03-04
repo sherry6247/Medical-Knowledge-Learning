@@ -5,6 +5,7 @@
 
 ## Paper list
 * **[2024 Science report]** MultiP [Construction and optimization of multi‑platform precision pathways for precision medicine](https://www.nature.com/articles/s41598-024-54517-8.pdf) | clinical+imaging + genetics + omics | **([code](https://github.com/SydneyBioX/MultiP))**
+*  **[2024 arxiv]** [Next Visit Diagnosis Prediction via Medical Code-Centric Multimodal Contrastive EHR Modelling with Hierarchical Regularisation](https://arxiv.org/pdf/2401.11648.pdf) | Demographics + Medical Codes + Clinical Notes
 *  **[2024 Computers in Biology and Medicome]** [Multi-modal learning for inpatient length of stay prediction](https://www.sciencedirect.com/science/article/pii/S0010482524002051)
 * **[2024 Computers in Biology and Medicine]**  AFF_fusion [Fusion of electronic health records and radiographic images for a multimodal deep learning prediction model of atypical femur fractures](https://www.sciencedirect.com/science/article/pii/S0010482523011691) | clinical + radiogrphs | **（[code](https://github.com/wanderine/AFF_fusion)）**
 * **[2024 Information Fusion]** [EHR-KnowGen: Knowledge-enhanced multimodal learning for disease diagnosis generation](https://www.sciencedirect.com/science/article/pii/S1566253523003858)|Knowledge(y HCUP-CSS codes)+ labtest + Clincial events + Note | **([code](https://github.com/Healthcare-Data-Mining-Laboratory/EHR-KnowGen?utm_source=catalyzex.com))**
